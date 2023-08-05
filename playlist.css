@@ -1,0 +1,130 @@
+aside{
+height:100%;
+margin-bottom:70px;
+}
+.playListInfo{
+height:40vh;
+width:79vw;
+margin-left:12px;
+background: linear-gradient(180deg, #90AEA7 0%, #2a3231 100%);
+}
+.songList{
+height:100%;
+margin-left:12px;
+width:79vw;
+background: linear-gradient(180deg, #2a3231, #000, #000);
+}
+.playName{
+color: #FFF;
+font-family: Circular Std;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.26px;
+}
+.playListN{
+color: #FFF;
+font-size: 90px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+letter-spacing: -1.8px;
+}
+.playDes{
+color: #FFF;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 146.9%; /* 20.566px */
+letter-spacing: -0.28px;
+opacity: 0.7;
+}
+.brand{
+color: #FFF;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 146.9%; /* 22.035px */
+letter-spacing: -0.3px;
+}
+.moreInfo{
+width:22vw;
+}
+.sameDes{
+color: #FFF;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.3px;
+}
+.songImgSticky{
+width:76vw;
+height:15vh;
+background-color:#272e2d;
+}
+.songLImg{
+width:15vw;
+}
+.songH{
+height:10vh;
+top:12vh;
+background-color:#272e2d;
+}
+.songListH{
+width:75vw;
+color: #FFF;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.32px;
+}
+.line{
+width:75vw;
+height:1px;
+opacity: 0.1;
+background: #FFF;
+}
+.music{
+width:75vw;
+background-color:#222524;
+color:#FFFFFF;
+border-radius:5px;
+}
+.musicLast{
+width:8vw;
+}
+.musicFirst{
+width:11vw;
+}
+.dateAdd{
+width:7vw;
+}
+.duration{
+width:8vw;
+}
+.albumH{
+width:21vw;
+}
+.titleH{
+width:14vw;
+}
+.music2{
+width:75vw;
+color:#FFFFFF;
+border-radius:5px;
+}
+.music2:hover{
+background-color:#2e2b2d;
+}
+.music:hover{
+background-color:#655d62;
+}
+header{
+height:90vh;
+}
+footer{
+bottom:0px;
+}

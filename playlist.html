@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="playlist.css">
+    <style>
+        @media only screen and (max-width: 1240px){
+            .logo, .playListInfo{
+            display:none !important;
+        }
+        @media only screen and (max-width: 1239px) and (min-width:821px){
+            .hLastImg{
+                display:none;
+            }
+        }
+        @media only screen and (min-width:400px) and (max-width: 820px){
+            .toHide{
+                display:none;
+            }
+            .hLastImg{
+                display:none;
+            }
+        }
+    </style>
+</head>
+<body>
+<header class="position-fixed">
+    <div  class="ps-4 d-flex flex-column">
+        <a href="index.html"><div class="logo mb-3 mt-2"><img src="images/Spotify%20logo.png">
+        </div></a>
+        <div class="navv mb-3">
+            <a href="index.html" class="menu"><div class="home d-flex align-items-center"><div><img src="images/home.png" class="pe-3"></div><span class="toHide">Home</span></div></a>
+            <a href="https://open.spotify.com/search" class="menu"><div class="search d-flex align-items-center"><div><img src="images/search.png" class="pe-3"></div><span class="toHide">Search</span></div></a>
+            <a href="" class="menu"><div class="library d-flex align-items-center"><div><img src="images/library.png" class="pe-3"></div><span class="toHide">Your Library</span></div></a>
+        </div>
+        <div class="ms-4 mb-1 toHide">PLAYLISTS</div>
+        <div class="myList mb-4">
+            <a href="" class="menu"><div class="createPlay d-flex align-items-center"><div><img src="images/plus.png" class="pe-3"></div><span class="toHide">Create Playlist</span></div></a>
+            <a href="" class="menu"><div class="liked d-flex align-items-center"><div><img src="images/purpleheart.png" class="pe-3"></div><span class="toHide">Liked Songs</span></div></a>
+<!--            <a href="" class="menu"><div class="episode d-flex align-items-center"><div><img src="images/hotspot.png" class="pe-3"></div>Your Episodes</div></a>-->
+        </div>
+        <div class="pe-2 hLastImg"><img src="images/album%20art.png" width="90%" height="auto"></div>
+    </div>
+</header>
+<aside class="featured d-flex flex-column align-items-center">
+    <div class="playListInfo d-flex">
+        <div><img src="images/playlistpic.png"></div>
+        <div class="d-flex flex-column justify-content-end pb-2">
+            <div class="playName">PLAYLIST</div>
+            <div class="playListN">Pop Right Now</div>
+            <div class="playDes">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus</div>
+            <div class="moreInfo d-flex justify-content-between">
+                <div class="brand">Spotify</div>
+                <div><img src="images/smallDot.png"></div>
+                <div class="sameDes">860,305 likes</div>
+                <div><img src="images/smallDot.png"></div>
+                <div class="sameDes">100 songs, 5 hr 5 min</div>
+            </div>
+        </div>
+    </div>
+    <div class="songList ps-5">
+        <div class="songImgSticky sticky-top d-flex align-items-center">
+            <div class="songLImg d-flex justify-content-between align-items-center">
+                <div class="imageS"><img src="images/thumb_play.png"></div>
+                <div class="imageS"><img src="images/heart.png"></div>
+                <div class="imageS"><img src="images/more_big.png"></div>
+            </div>
+        </div>
+        <div class="songH d-flex flex-column sticky-top justify-content-center">
+            <div class="songListH d-flex justify-content-between align-items-center mb-2">
+                <div class="d-flex titleH ps-3">
+                    <div class="me-3">#</div>
+                    <div>TITLE</div>
+                </div>
+                <div class="albumH">ALBUM</div>
+                <div class="dateAdd">DATE ADDED</div>
+                <div class="duration">DURATION</div>
+            </div>
+            <div>
+                <div class="line mb-2"></div>
+            </div>
+        </div>
+        <div class="music d-flex justify-content-between align-items-center mb-4">
+            <div class="musicFirst d-flex align-items-center justify-content-between ps-3">
+                <div><img src="images/currPlay.png"></div>
+                <div><img src="images/musicImg.png"></div>
+                <div>
+                    <div>We’re Good</div>
+                    <div>Dua Lipa</div>
+                </div>
+            </div>
+            <div>Future Nostalgia (The Moonlight Edition)</div>
+            <div>4일 전</div>
+            <div class="musicLast d-flex justify-content-between pe-2">
+                <div><img src="images/mheart.png"></div>
+                <div>2:45</div>
+                <div><img src="images/m3dot.png"></div>
+            </div>
+        </div>
+
+        <div class="music2 d-flex justify-content-between align-items-center mb-4">
+            <div class="musicFirst d-flex align-items-center justify-content-between ps-3">
+                <div><img src="images/currPlay.png"></div>
+                <div><img src="images/musicImg.png"></div>
+                <div>
+                    <div>We’re Good</div>
+                    <div>Dua Lipa</div>
+                </div>
+            </div>
+            <div>Future Nostalgia (The Moonlight Edition)</div>
+            <div>4일 전</div>
+            <div class="musicLast d-flex justify-content-between pe-2">
+                <div><img src="images/mheart.png"></div>
+                <div>2:45</div>
+                <div><img src="images/m3dot.png"></div>
+            </div>
+        </div>
+
+        <div class="music2 d-flex justify-content-between align-items-center mb-4">
+            <div class="musicFirst d-flex align-items-center justify-content-between ps-3">
+                <div><img src="images/currPlay.png"></div>
+                <div><img src="images/musicImg.png"></div>
+                <div>
+                    <div>We’re Good</div>
+                    <div>Dua Lipa</div>
+                </div>
+            </div>
+            <div>Future Nostalgia (The Moonlight Edition)</div>
+            <div>4일 전</div>
+            <div class="musicLast d-flex justify-content-between pe-2">
+                <div><img src="images/mheart.png"></div>
+                <div>2:45</div>
+                <div><img src="images/m3dot.png"></div>
+            </div>
+        </div>
+
+        <div class="music2 d-flex justify-content-between align-items-center mb-4">
+            <div class="musicFirst d-flex align-items-center justify-content-between ps-3">
+                <div><img src="images/currPlay.png"></div>
+                <div><img src="images/musicImg.png"></div>
+                <div>
+                    <div>We’re Good</div>
+                    <div>Dua Lipa</div>
+                </div>
+            </div>
+            <div>Future Nostalgia (The Moonlight Edition)</div>
+            <div>4일 전</div>
+            <div class="musicLast d-flex justify-content-between pe-2">
+                <div><img src="images/mheart.png"></div>
+                <div>2:45</div>
+                <div><img src="images/m3dot.png"></div>
+            </div>
+        </div>
+
+        <div class="music2 d-flex justify-content-between align-items-center mb-4">
+            <div class="musicFirst d-flex align-items-center justify-content-between ps-3">
+                <div><img src="images/currPlay.png"></div>
+                <div><img src="images/musicImg.png"></div>
+                <div>
+                    <div>We’re Good</div>
+                    <div>Dua Lipa</div>
+                </div>
+            </div>
+            <div>Future Nostalgia (The Moonlight Edition)</div>
+            <div>4일 전</div>
+            <div class="musicLast d-flex justify-content-between pe-2">
+                <div><img src="images/mheart.png"></div>
+                <div>2:45</div>
+                <div><img src="images/m3dot.png"></div>
+            </div>
+        </div>
+
+        <div class="music2 d-flex justify-content-between align-items-center mb-4">
+            <div class="musicFirst d-flex align-items-center justify-content-between ps-3">
+                <div><img src="images/currPlay.png"></div>
+                <div><img src="images/musicImg.png"></div>
+                <div>
+                    <div>We’re Good</div>
+                    <div>Dua Lipa</div>
+                </div>
+            </div>
+            <div>Future Nostalgia (The Moonlight Edition)</div>
+            <div>4일 전</div>
+            <div class="musicLast d-flex justify-content-between pe-2">
+                <div><img src="images/mheart.png"></div>
+                <div>2:45</div>
+                <div><img src="images/m3dot.png"></div>
+            </div>
+        </div>
+
+        <div class="music2 d-flex justify-content-between align-items-center mb-4">
+            <div class="musicFirst d-flex align-items-center justify-content-between ps-3">
+                <div><img src="images/currPlay.png"></div>
+                <div><img src="images/musicImg.png"></div>
+                <div>
+                    <div>We’re Good</div>
+                    <div>Dua Lipa</div>
+                </div>
+            </div>
+            <div>Future Nostalgia (The Moonlight Edition)</div>
+            <div>4일 전</div>
+            <div class="musicLast d-flex justify-content-between pe-2">
+                <div><img src="images/mheart.png"></div>
+                <div>2:45</div>
+                <div><img src="images/m3dot.png"></div>
+            </div>
+        </div>
+
+        <div class="music2 d-flex justify-content-between align-items-center mb-4">
+            <div class="musicFirst d-flex align-items-center justify-content-between ps-3">
+                <div><img src="images/currPlay.png"></div>
+                <div><img src="images/musicImg.png"></div>
+                <div>
+                    <div>We’re Good</div>
+                    <div>Dua Lipa</div>
+                </div>
+            </div>
+            <div>Future Nostalgia (The Moonlight Edition)</div>
+            <div>4일 전</div>
+            <div class="musicLast d-flex justify-content-between pe-2">
+                <div><img src="images/mheart.png"></div>
+                <div>2:45</div>
+                <div><img src="images/m3dot.png"></div>
+            </div>
+        </div>
+
+        <div class="music2 d-flex justify-content-between align-items-center mb-4">
+            <div class="musicFirst d-flex align-items-center justify-content-between ps-3">
+                <div><img src="images/currPlay.png"></div>
+                <div><img src="images/musicImg.png"></div>
+                <div>
+                    <div>We’re Good</div>
+                    <div>Dua Lipa</div>
+                </div>
+            </div>
+            <div>Future Nostalgia (The Moonlight Edition)</div>
+            <div>4일 전</div>
+            <div class="musicLast d-flex justify-content-between pe-2">
+                <div><img src="images/mheart.png"></div>
+                <div>2:45</div>
+                <div><img src="images/m3dot.png"></div>
+            </div>
+        </div>
+
+        <div class="music2 d-flex justify-content-between align-items-center mb-4">
+            <div class="musicFirst d-flex align-items-center justify-content-between ps-3">
+                <div><img src="images/currPlay.png"></div>
+                <div><img src="images/musicImg.png"></div>
+                <div>
+                    <div>We’re Good</div>
+                    <div>Dua Lipa</div>
+                </div>
+            </div>
+            <div>Future Nostalgia (The Moonlight Edition)</div>
+            <div>4일 전</div>
+            <div class="musicLast d-flex justify-content-between pe-2">
+                <div><img src="images/mheart.png"></div>
+                <div>2:45</div>
+                <div><img src="images/m3dot.png"></div>
+            </div>
+        </div>
+
+        <div class="music2 d-flex justify-content-between align-items-center mb-4">
+            <div class="musicFirst d-flex align-items-center justify-content-between ps-3">
+                <div><img src="images/currPlay.png"></div>
+                <div><img src="images/musicImg.png"></div>
+                <div>
+                    <div>We’re Good</div>
+                    <div>Dua Lipa</div>
+                </div>
+            </div>
+            <div>Future Nostalgia (The Moonlight Edition)</div>
+            <div>4일 전</div>
+            <div class="musicLast d-flex justify-content-between pe-2">
+                <div><img src="images/mheart.png"></div>
+                <div>2:45</div>
+                <div><img src="images/m3dot.png"></div>
+            </div>
+        </div>
+
+    </div>
+</aside>
+<footer class="position-fixed">
+    <div  class="">
+        <div class="player d-flex justify-content-between">
+            <div class="currentPlay d-flex align-items-center justify-content-between">
+                <div><img src="images/currentPlay.png"></div>
+                <div>
+                    <div class="dreamOn">Dreaming On</div>
+                    <div class="nef">Neffex</div>
+                </div>
+                <div><img src="images/fav.png"></div>
+            </div>
+            <div class="playControl d-flex flex-column justify-content-center align-items-center">
+                <div class="">
+                    <img src="images/shuffle.png" class="footIc">
+                    <img src="images/prev.png" class="footIc">
+                    <img src="images/play.png" class="footIc">
+                    <img src="images/next.png" class="footIc">
+                    <img src="images/gropu.png" class="footIc">
+                </div>
+                <div class="d-flex align-items-center justify-content-around">
+                    <div class="time me-2">2:11</div>
+                    <div class="timeBar footIc">
+                        <div class="timeGone footIc"></div>
+                    </div>
+                    <div class="time ms-2">2:42</div>
+                </div>
+            </div>
+            <div class="otherInteraction d-flex align-items-center justify-content-between">
+                <div><img src="images/microph.png" class="footIc"></div>
+                <div><img src="images/queue.png" class="footIc"></div>
+                <div class="view d-flex flex-column align-items-end"><img src="images/laptop.png" class="mb-2 mt-4 footIc"><img src="images/triag.png" class="footIc"></div>
+                <div><img src="images/speaker.png" class="footIc"></div>
+                <div class="audioBar footIc"></div>
+                <div><img src="images/strech-speaker.png" class="footIc"></div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+</body>
+</html>

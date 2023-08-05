@@ -1,0 +1,254 @@
+*{
+margin:0px;
+padding:0px;
+}
+
+header{
+width: 20vw;
+height: 89vh;
+background-color: #000;
+color: #FFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -1.14px;
+}
+.logo{
+height:15%;
+width: 17vw;
+padding-left:10px;
+}
+.navv{
+height:20%;
+}
+.home, .search, .library, .createPlay, .liked, .episode{
+width: 17vw;
+height: 7vh;
+flex-shrink: 0;
+padding-left:20px;
+}
+.myList{
+height:20%;
+text-decoration:none;
+}
+.list{
+height:30%;
+}
+.list li{
+width: 17vw;
+height: 4vh;
+text-decoration:none;
+list-style-type:none;
+line-height:2;
+padding-left:20px;
+}
+ul{
+padding-left:0px !important;
+}
+.download{
+width: 17vw;
+height: 7vh;
+padding-left:20px;
+}
+aside{
+float:right;
+width:80vw;
+height: 100%;
+background: linear-gradient(180deg, #222 0%, #1F1F1F 11.64%, #171717 25.66%, #161616 32.94%, #151515 35.98%, #131313 44.89%, #121212 55.22%, #121212 75.34%, #121212 85.45%, rgba(18, 18, 18, 0.00) 100%);
+margin-bottom:80px;
+}
+.secFixed{
+width:97%;
+height:5vw;
+background-color: #212121;
+border-radius: 4px;
+}
+.arrows{
+width:10%;
+}
+.prof{
+width:10%;
+border-radius: 33px;
+background: #0A0A0A;
+cursor:pointer;
+}
+.profName{
+color: #FFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.4px;
+}
+.greetings, .contentCategories{
+width:90%;
+}
+.contentCategories{
+height:365px;
+margin-bottom:5px;
+}
+.greetHead{
+color: #FFF;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.14px;
+}
+.greetCard{
+width: 22vw;
+height: 15vh;
+flex-shrink: 0;
+border-radius: 4px;
+background-color: #303030;
+transition:all 1s ease;
+}
+.greetCard:hover{
+transform:scale(0.9);
+cursor:pointer;
+}
+.greetList{
+color: #FFF;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.4px;}
+footer{
+bottom:15px;
+}
+.contentHeadM{
+color: #FFF;
+font-size: 29px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.16px;
+}
+.seeAll{
+color: #B3B3B3;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.68px;
+}
+.myCard{
+width: 17vw;
+height: 19vw;
+flex-shrink: 0;
+background-color: #181818;
+transition:all 1s ease;
+}
+.myCard:hover{
+transform:scale(1.1);
+}
+.menu>div:hover, .menu>li:hover, .download:hover{
+background-color: #212121;
+}
+.menu{
+color:inherit;
+}
+.cardHead{
+color: #FFF;
+font-size: 1vw;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.42px;
+}
+.cardSubHead{
+color: #B3B3B3;
+font-size: 1vw;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.15px;
+}
+a{
+text-decoration:none !important;
+color:white;
+}
+.player{
+width: 100vw;
+height: 10vh;
+flex-shrink: 0;
+background-color: #181818;
+}
+.currentPlay{
+width:210px;
+}
+.playControl{
+width:650px;
+}
+.otherInteraction{
+width:310px;
+}
+.view{
+height:10vh;
+}
+.footIc{
+cursor:pointer;
+}
+.dreamOn{
+color: #FFF;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.9px;
+}
+.nef{
+color: #B3B3B3;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.75px;
+}
+.time{
+color: #C4C4C4;
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.56px;
+}
+.timeBar{
+width: 511px;
+height: 5px;
+flex-shrink: 0;
+border-radius: 2.5px;
+background-color: #535353;
+}
+.timeGone{
+width: 411px;
+height: 5px;
+flex-shrink: 0;
+border-radius: 2.5px;
+background: #C4C4C4;
+}
+.audioBar{
+width: 104.346px;
+height: 5px;
+flex-shrink: 0;
+border-radius: 2.5px;
+background: #C4C4C4;
+}
+.footerDevice{
+width: 100vw;
+height: 2vh;
+flex-shrink: 0;
+background-color:#1ED760;
+color: #000;
+font-family: DM Sans;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.imageS{
+cursor:pointer;
+}
